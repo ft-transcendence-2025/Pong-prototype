@@ -33,7 +33,7 @@ A resolution-dependent bitmap canvas for:
 	- Paddle
 
 
-The object's dimensions are passed to the constructors, which are determined as global at the top.
+The object's dimensions and atributes are passed to the constructors, which are determined as global at the top.
 
 Both have `render()` methods which uses canvas api functions to render the objects.
 
