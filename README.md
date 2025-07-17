@@ -48,3 +48,11 @@ Both have `render()` methods which uses canvas api functions to render the objec
 
 - The paddleState are updated when a key is pressed
 - the gameState is updated when Space is press, or a score is made.
+
+
+### Start the game loop
+```js
+window.addEventListener('load', function() {
+    gameLoop();
+})
+```
