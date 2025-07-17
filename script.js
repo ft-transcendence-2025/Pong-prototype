@@ -108,6 +108,8 @@ class Paddle {
     render() {
         ctx.fillStyle = this.color;
         ctx.fillRect(this.x, this.y, this.width, this.height);
+
+        // line around the paddle
         ctx.strokeStyle = this.strockColor;
         ctx.lineWidth = this.lineThickness;
         ctx.strokeRect(this.x, this.y, this.width, this.height);
