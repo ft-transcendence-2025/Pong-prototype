@@ -36,26 +36,26 @@ A resolution-dependent bitmap canvas for:
 
 ## script
 
-- The script uses two objects:
+- The script creates two objects:
 	- Ball
 	- Paddle
 
 
-The object's dimensions and atributes are passed to the constructors, which are determined as global at the top.
+The object's dimensions and attributes are passed to the constructors, which are determined as global at the top.
 
-Both have `render()` methods which uses canvas api functions to render the objects.
+Both have `render()` methods, which use canvas api functions to render the objects.
 
 ##### **`gameLoop()` Recursively clear the canvas and render the canvas infinitely**
 
 - `ctx.clearRect(0, 0, canvas.width, canvas.height)`
-	Clears the hole cavas
+	Clears the whole canvas
 
 - Verify paddleState and gameState for changes in coordinates
 	- paddleState verifies both paddle states;
-	- gameState verifies ball position: moving or stoped;
+	- gameState verifies ball position: moving or stopped;
 
-- The paddleState are updated when a key is pressed
-- the gameState is updated when Space is press, or a score is made.
+- The paddleState is updated when a key is pressed
+- The gameState is updated when Space is pressed, or a score is made.
 
 
 ### Start the game loop
