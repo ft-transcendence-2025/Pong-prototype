@@ -1,4 +1,3 @@
-```js
 const canvas = document.querySelector("canvas");
 canvas.tabIndex = 0; // Make canvas focusable
 canvas.width = window.innerWidth / 1.2;
@@ -187,4 +186,3 @@ window.addEventListener("keyup", function (event) {
     if (event.key === "ArrowUp")
         paddleState["rightUp"] = false;
 })
-```
