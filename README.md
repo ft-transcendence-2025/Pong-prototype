@@ -37,7 +37,7 @@ The object's dimensions are passed to the constructors, which are determined as 
 
 Both have `render()` methods which uses canvas api functions to render the objects.
 
-##### **`gameLoop()` Recursively clear the canvas and render the pixel infinitely**
+##### **`gameLoop()` Recursively clear the canvas and render the canvas infinitely**
 
 - `ctx.clearRect(0, 0, canvas.width, canvas.height)`
 	Clears the hole cavas
